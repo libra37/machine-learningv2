@@ -1,0 +1,28 @@
+{
+  "model": "OpenCLIP ViT-B-32/openai",
+  "method": "partial_unfreeze_finetune",
+  "unfreeze": "emb_first3_last6",
+  "head": "linear",
+  "epochs": 29,
+  "batch_size": 8,
+  "lr_backbone": 1e-5,
+  "lr_head": 1e-3,
+  "weight_decay": 0.10,
+  "label_smoothing": 0.03,
+  "crop_scale_min": 0.85,
+  "jitter": 0.05,
+  "tta_views": 3,
+  "class_weights": {
+    "Class_0": 1.15,
+    "Class_1": 1.0,
+    "Class_2": 1.25,
+    "Class_3": 1.0,
+    "Class_4": 1.03
+  },
+  "cv_result": {
+    "macro_f1": 0.6987,
+    "balanced_accuracy": 0.6960
+  },
+  "final_submission": "24123997-马旋宇.csv"
+}
+
