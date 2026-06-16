@@ -25,7 +25,7 @@ balanced accuracy = 0.6960
 最终提交文件：
 
 ```text
-24123997-马旋宇.csv
+24123997.csv
 ```
 
 该文件与 `outputs/final_epoch_29/submission_epoch_29.csv` 内容一致。
@@ -38,7 +38,7 @@ final_repro_openclip_partial_unfreeze/
   requirements.txt
   run_final_predict.ps1
   final_config.json
-  24123997-马旋宇.csv
+  24123997.csv
   src/
     dataset.py
     openclip_aug_sweep.py
